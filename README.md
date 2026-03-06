@@ -1,6 +1,7 @@
 # LDSR-S2 Slurm Launcher
 
 `ldsrs2-launcher` is a production-oriented Slurm launcher for the LDSR-S2 super-resolution workflow.
+It is based on the model of https://github.com/ESAOpenSR/opensr-model (check it out!) 
 
 The repository is organized around a Python package, immutable run manifests, and run-centric output directories. The launcher stages Sentinel-2 cutouts on the submission side and submits inference-only Slurm jobs for maintainable, reproducible cluster execution.
 
