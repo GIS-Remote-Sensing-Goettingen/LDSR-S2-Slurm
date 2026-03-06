@@ -1,0 +1,35 @@
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Local IDE state
+.idea/
+.vscode/
+
+# Runtime artifacts
+runs/
+artifacts/
+output/
+output_patches/
+collected_outputs/
+logs/
+*.out
+*.err
+*.log
+
+# Large generated assets
+*.png
+*.tif
+*.tiff
+*.aux.xml
+*.ckpt
